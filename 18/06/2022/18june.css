@@ -1,0 +1,20 @@
+header{
+    background-color:aqua ;
+    height:40px;
+}
+nav{
+    background-color: yellow;
+    height: 60px;
+}
+main{
+    background-color: chartreuse;
+    height: 400px;
+}
+footer{
+    background-color: orangered;
+    height: 120px;
+}
+p{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

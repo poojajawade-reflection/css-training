@@ -1,0 +1,49 @@
+.body{
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.nav{
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+}
+.main{
+    background-color: skyblue;
+    padding: 15px;
+}
+.footer{
+    background-color: navy;
+    padding: 15px;
+    color: red;
+}
+.row{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.column{
+    float: left;
+    width:25% ;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.footer.column{
+    width:33.32%
+}
+.row certification.column1 column
+{
+   width: 10px;
+}
+.header.column1{
+    width: 25%;
+}
+.header.column2{
+    width: 75%;
+}
+.certification.column{
+    width: 33.33%;
+}

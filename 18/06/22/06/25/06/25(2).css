@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+}
+.header{
+    background-color: green;
+    color: black;
+    padding: 5px;
+}
+.logo{
+    text-align: left;
+    width: 20%;
+}
+.search{
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+}   
+.nav{
+    background-color: red;
+    color: black;
+    padding: 10px;
+}
+.main{
+    background-color: aqua;
+    color: red;
+    padding: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

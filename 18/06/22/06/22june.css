@@ -1,0 +1,56 @@
+.body{
+    margin: 0;
+}
+.header{
+    background-color: brown;
+    padding: 20pxpx;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+.logo{
+    float: left;
+}
+.search{
+    float: right;
+}
+.nav{
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin:  0 20px;
+}
+.nav link{
+    padding: 10px;
+    text-align:center;
+    float: left;
+}
+.main{
+    float: center;
+    overflow: hidden;
+}
+.banner{
+    overflow: hidden;
+    padding:5px ;
+    text-align: center;
+}
+.footer{
+    background-color: blue;
+    text-align: center;
+    width: 100px;
+}
+.main1{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.image{
+    float: right;
+    width: 25%;
+    text-align:center ;
+}
+.nameimg{
+    padding: 5px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}

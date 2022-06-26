@@ -1,0 +1,78 @@
+.body{
+    margin: 0%;
+}
+.header{
+    background-color: blue;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+.logo{
+    float: left;
+}
+.search{
+    float: right;
+}
+.nav{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.nav-link{
+    border: 2px solid black;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.main{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.left-content{
+    float: left;
+    width: 20%;
+}
+.middle-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+.banner{
+    padding: 0 20px;
+}
+.banner-image{
+    width: 100%;
+}
+.middle-content.product{
+    float: left;
+    margin: 0 10px;
+    display: inline-block;
+}
+.right-content{
+    float: right;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0 20px;
+}
+.right-content.product{
+    display: inline-block;
+}
+.product{
+    float: left;
+    width: 150px;
+    margin: 0 40px;
+    border: 2px solid black;
+}
+.product-image{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+
+
+
+

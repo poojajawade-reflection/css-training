@@ -1,0 +1,74 @@
+
+.body{
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    padding: 30px;
+}
+.column1 {
+    width: 25%;
+    border: 1px solid red;
+    float: left;
+    border-width: thick;
+  }
+  .column2{
+    text-align: right;
+    width: 55%;
+    border: 1px solid red;
+    float: left;
+    display: inline-block;
+    border-width: thick;
+  }
+  .nav{
+    background-color: blue;
+    padding: 10px;
+  }
+  .main{
+    background-color: yellow;
+    padding: 10%;
+    
+  }
+  .h2{
+    margin:0 10px;
+    text-align: center;
+
+  }
+  .column1{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  .column2{
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .column3{
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .row.column1{
+    width: 25%;
+
+  }
+  .row1.column2{
+    width: 25%;
+  }
+.row1.column3{
+    width: 35%;
+    float: left;
+}
+.row2.column1{
+    width: 25%;
+
+  }
+  .row2.column2{
+    width: 25%;
+  }
+.row3.column3{
+    width: 35%;
+    float: left;
+}
+.footer{
+    background-color: crimson;
+    padding: 15px;
+}

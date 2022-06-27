@@ -33,35 +33,6 @@
     color: red;
     padding: 10%;
 }
-.container{
-    background: #eee;
-    width: 700px;
-    margin: 70px 0 0 50px;
-    display:grid;
-    grid-template-columns: 250px 200px auto;
-    grid-template-rows: 150px 100px 100px;
-}
-.items1{
-    background-color: orangered;
-}
-.items2{
-    background-color: yellowgreen;
-}
-.items3{
-    background-color: palevioletred;
-}
-.items4{
-    background-color: tomato;
-}
-.items5{
-    background-color: navy;
-}
-.items6{
-    background-color: purple;
-}
-
-
-
 
 .footer{
     background-color: yellow;

@@ -7,20 +7,16 @@
     padding: 30px;
 }
 
-.header.column1{
-     width: 20%;
-    border: 1px solid red;
+.row,.column1{
+    background-color:lightgreen;
+    width: 35%;
     float: left;
-    background-color: violet;
-    overflow: hidden;
-    padding: 15px;
+    display:inline-block;
 }
-.header.column2{
-    width: 80%;
-    float: left;
-    background-color: olive;
-    overflow: hidden;
-    padding: 15px;
+.row,.column2{
+    width: 65%;
+    background-color: greenyellow;
+    display: inline-block;
 }
 .nav {
     background-color: blue;
@@ -36,13 +32,12 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 200px;
-    gap: 5px;
+    gap: 0px;
     background-color: #2196F3;
     padding: 10px;
   }
   .grid-item1 {
     background-color: red;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -51,7 +46,6 @@
   }
   .grid-item2{
     background-color: brown;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -62,7 +56,6 @@
   }
 .grid-item3 {
     background-color: orangered;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -71,36 +64,35 @@
   }
   .grid-item4{
     background-color: yellowgreen;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     grid-template-columns: 25% 30% 50%;
     grid-template-rows: 150px 100px 100px;
+    height: 10pc;
   }
   .grid-item5 {
     background-color: maroon;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     grid-template-columns: 25% 30% 50%;
     grid-template-rows: 150px 100px 100px;
     grid-row: 1 / 4;
+    height: 25pc;
   }
   .grid-item6 {
     background-color: magenta;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     grid-template-columns: 25% 30% 50%;
     grid-template-rows: 150px 100px 100px;
+    height: 10pc;
   }
 
   .grid-item8 {
     background-color:lightcoral;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -111,12 +103,13 @@
   }
   .grid-item9 {
     background-color:gray;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     grid-template-columns: 25% 30% 50%;
-    grid-template-rows: 150px 100px 100px;
+    grid-template-rows: 150px 100px 100px;ss
+    height: 10px;
+    display:inline block;
   }
   .footer{
     background-color: darkgreen;

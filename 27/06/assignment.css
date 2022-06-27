@@ -1,0 +1,22 @@
+
+.body{
+    margin: 0;
+}
+.header{
+    background-color: brown;
+    padding: 20pxpx;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+.logo{
+    float: left;
+}
+.search{
+    float: right;
+}
+.nav{
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin:  0 20px;
+}

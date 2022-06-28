@@ -1,0 +1,17 @@
+.body{
+    margin: 0;
+}
+
+.main{
+    background-color: aqua;
+}
+.main,.left-column{
+    background-color: blueviolet;
+    float: left;
+    width:300px ;
+}
+.main,.right-column{
+    background-color: aquamarine;
+    float: right;
+    width: calc(100%-300px);
+}

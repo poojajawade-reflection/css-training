@@ -30,7 +30,8 @@ body {
     background-color: #ddd;
     color: black;
 }
-.main{
+
+.main {
     background-color: tomato;
 }
 
@@ -58,19 +59,22 @@ body {
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */ {
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    {
 
     .column.side,
     .column.middle {
         width: 100%;
     }
 }
-.header{
+
+.header {
     background-color: blueviolet;
     padding: 15px;
-    
+
 }
-.footer{
-    background-color:aqua ;
+
+.footer {
+    background-color: aqua;
     padding: 15px;
 }

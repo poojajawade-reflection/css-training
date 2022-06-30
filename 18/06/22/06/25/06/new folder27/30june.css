@@ -1,0 +1,52 @@
+.header{
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+.header-text{
+    color:red;
+    float: right;padding: 10px;
+}
+
+.row{
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.column{
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row.column.banner{
+    width: 50%;
+    margin:30px;
+    display: inline-block;
+}
+.banner{
+    position: relative;
+    width: 60%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    text-align:center;
+    top: 100px;
+}

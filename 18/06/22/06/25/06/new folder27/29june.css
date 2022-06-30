@@ -1,0 +1,42 @@
+.page{
+    height: 1000px;
+}
+.header{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    text-align: center;
+}
+.header:hover{
+    background-color: crimson;
+}
+.nav{
+    margin-top: 100px;
+    background-color:teal;
+    padding: 5px;
+}
+.nav-list{
+    display: inline-block;
+    margin: 0 20px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+.child-nav{
+    display: none;
+    position: absolute;
+    padding: 30px;
+    top: 38px;
+    left: 0;
+    color: black;
+
+}
+.img{
+    z-index: 9;
+    opacity: 1;
+}
+.nav-list:hover .child-nav{
+    display: block;
+}

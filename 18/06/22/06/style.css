@@ -55,6 +55,8 @@
     overflow: hidden;
     padding: 20px;
     margin: 0 20px;
+    margin-top: -251px;
+    margin-right: -188px;
 }
 .right-content.product{
     display: inline-block;
@@ -62,7 +64,7 @@
 .product{
     float: left;
     width: 150px;
-    margin: 0 40px;
+    margin: 0 60px;
     border: 2px solid black;
 }
 .product-image{
@@ -70,7 +72,11 @@
     height: 100px;
     display: inline-block;
 }
-
+@media screen and(max-width:767px){
+    .left-content, .middle-content, .right-content {
+        width: 100%;
+    }
+}
 
 
 

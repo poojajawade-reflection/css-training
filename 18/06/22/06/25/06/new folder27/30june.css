@@ -5,8 +5,13 @@
 }
 .header-text{
     color:red;
-    float: right;padding: 10px;
+    float: right;
+    padding: 10px;
+    background-color:black;
 }
+*{
+    box-sizing: border-box;
+  }
 
 .row{
     overflow: hidden;
@@ -49,4 +54,5 @@
     left: 0;
     text-align:center;
     top: 100px;
+    float: left;
 }

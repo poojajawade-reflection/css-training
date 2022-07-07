@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header {
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+}
+
+.header-top {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.header-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 8px 0px;
+}
+
+.header-top-left {
+    float: left;
+    box-sizing: border-box;
+}
+
+.header-top-right {
+    float: right;
+    box-sizing: border-box;
+}
+
+.world {
+    vertical-align: middle;
+    width: 25px;
+}
+
+.msg {
+    background-color: #DA7029;
+    color: antiquewhite;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.right-top-item {
+    display: inline-block;
+    padding: 0 14px;
+    padding-bottom: 0;
+
+}
+
+.navitem {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 10px;
+
+}
+
+.search {
+    width: 28px;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 140px;
+    padding: ;
+}
+
+.nav .header-top-right {
+    float: none;
+}
+
+.cross {
+    float: right;
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav {
+    overflow: hidden;
+    color: #00095B;
+    background-color: white;
+}
+
+.mimg {
+    float: left;
+    width: 25px;
+    margin-left: 20px;
+
+}
+
+.profile {
+    width: 25px;
+}
+
+.right-top-nav-list {
+    margin: 0;
+    padding-right: 23px;
+}
+
+.navlist {
+    margin: 0;
+    margin-right: 0;
+}
+
+.top-item-list {
+    display: none;
+    color: black;
+    position: absolute;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.right-top-item:hover .top-item-list {
+    display: block;
+}
+
+.site {
+    vertical-align: middle;
+}
+.arrow.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+@media screen and (max-width: 767px) {
+
+    .header-top-left {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-top-right {
+
+        box-sizing: border-box;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+    .navitem {
+        display: block;
+        overflow: hidden;
+        padding: 0 10px;
+        padding: 10px;
+        border-bottom: 2px solid #00095B;
+    }
+
+    .header-top .header-top-right {
+        display: none;
+    }
+
+    .logo {
+        width: 250px;
+        margin-top: 10px;
+    }
+}
